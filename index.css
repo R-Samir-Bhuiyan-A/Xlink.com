@@ -1,0 +1,70 @@
+ *{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.logo,
+.link {
+	color: #1877f2;
+}
+form .a {
+	background-color: #1877f2;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+}
+input {
+	height: 36px;
+	width: 316px;
+	margin-top: 5px;
+	border: 0.2px gray solid;
+}
+input .a {
+	margin-top: 8px;
+	display: flex;
+}
+.pass {
+	margin-bottom: 11px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	touch-action: none;
+}
+::placeholder {
+	color: gray;
+	padding-left: 13px;
+}
+.logo {
+	margin-bottom: 13px;
+	margin-top: 25px;
+}
+.or {
+	margin: 24px;
+}
+.new {
+	height: 40px;
+	width: 210px;
+	border: #181818 0.1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.new a {
+	color: black;
+	font-weight: bold;
+}
+section {
+    height: 96vh;
+    display: flex;
+    align-items:  center;
+    
+    flex-direction: column;
+}
