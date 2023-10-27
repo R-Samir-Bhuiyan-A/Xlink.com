@@ -1,0 +1,125 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #111;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.forgot-password,
+.register {
+    text-align: center;
+    padding: 10px;
+}
+
+.forgot-password a,
+.register a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.forgot-password a:hover,
+.register a:hover {
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    border-top: 2px solid #fff;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888;
+}
+.register p a,.forgot-password p a {
+    color: red;
+} 
+.login-box
+{
+height: 600px;
+width: 80%;
+margin-top: 30%;
+
+
+}
+
+@media screen and (max-width: 768px) { /* CSS rules for phones go here */ 
+input[type="text"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+}
+.login-box {
+
+height: 700px;
+width: 100%;
+}
+
+}

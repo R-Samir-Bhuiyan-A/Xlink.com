@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+.navbar {
+	background-color: #000;
+	border-bottom: 2px solid #fff;
+	padding: 10px 0;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar li {
+	margin: 0 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	transition: color 0.3s;
+}
+
+.navbar a:hover {
+	color: #888;
+}
+
+.section {
+	background-color: #111;
+	border: 2px solid #fff;
+	padding: 30px;
+	text-align: center;
+	margin: 10px;
+}
+
+.icons {
+	font-size: 30px;
+	margin: 10px;
+}
+
+.icons a {
+	margin: 10px;
+	transition:
+		transform 0.3s,
+		color 0.3s;
+	cursor: pointer;
+}
+
+.icons a:hover {
+	transform: scale(1.2);
+	color: #888;
+}
+
+#about h1 {
+	font-size: 36px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #000;
+	border-top: 2px solid #fff;
+}
+
+footer p {
+	font-size: 14px;
+	color: #888;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 7px;
+}
+.logo h1:hover {
+	color: #888;
+	font-size: 50px;
+}
+body a,
+i {
+	text-decoration: none;
+}
+.icons a {
+  color: #fff;
+}
